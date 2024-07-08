@@ -1,0 +1,105 @@
+		*{
+			padding :0;
+			margin :0;
+		}
+		
+		header{
+			height: 80px;
+		}
+		header h1{
+			position: absolute;
+			left: 4vw;
+			line-height: 80px;
+		}
+
+		header ul{
+			position: absolute;
+			right: 5vw;
+			top: 0;
+			line-height: 80px;
+		}
+
+		header li{
+			display: inline;
+			margin: 2vw;
+		}
+
+		header li a{
+			color: #ffffff;
+		}
+
+        main section h1{
+            line-height: 200px; 
+            font-family: 微軟正黑體; 
+            font-weight: 300;
+            font-style: italic;
+            position: relative;
+			z-index: 4;
+        }
+
+        main section h3{
+            line-height: 50px; 
+            font-family: 微軟正黑體; 
+            font-weight: 300;
+            font-style: italic;
+            position: absolute;
+            left: 63vw;
+            top: 170px;
+			z-index: 3;
+        }
+
+        main section h2{
+            position: absolute;
+			z-index: 3;
+        }
+
+		div.sq{
+
+			height: 500px; 
+			background-color: antiquewhite;;
+			position: relative;
+			top:-400px;
+			z-index: 2;
+
+		}
+
+		div.circle{
+			background-color: beige;
+			width: 1200px;
+			height: 1200px;
+			border-radius: 50%;
+			position: relative;
+			left: -30vw;
+			top: -35vw;
+			z-index: 1;
+
+		}
+
+
+
+		/* button{
+			color: white;
+			background-color: red;
+			width: 60px;
+			height: 30px;
+			border-radius: 17px;
+			border-style: None;
+			cursor: pointer; 
+		}
+	
+		button:hover{
+			background-color: rgb(255, 103, 103);
+		}
+
+		button:active{
+			background-color: rgb(255, 136, 136);
+		}		 */
+
+		a{
+			text-decoration: None;
+			color: white;
+		}
+
+		a:visited{
+			text-decoration: None;
+		}
