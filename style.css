@@ -1,10 +1,12 @@
 		*{
 			padding :0;
 			margin :0;
+	
 		}
 		
 		header{
 			height: 80px;
+			width: device-width;
 		}
 		header h1{
 			position: absolute;
@@ -17,15 +19,18 @@
 			right: 5vw;
 			top: 0;
 			line-height: 80px;
+			z-index: 3;
 		}
 
 		header li{
 			display: inline;
 			margin: 2vw;
+
 		}
 
 		header li a{
-			color: #ffffff;
+			color: #000000;
+			z-index: 3;
 		}
 
         main section h1{
@@ -33,7 +38,7 @@
             font-family: 微軟正黑體; 
             font-weight: 300;
             font-style: italic;
-            position: relative;
+            position: absolute;
 			z-index: 4;
         }
 
@@ -43,8 +48,6 @@
             font-weight: 300;
             font-style: italic;
             position: absolute;
-            left: 63vw;
-            top: 170px;
 			z-index: 3;
         }
 
@@ -53,13 +56,36 @@
 			z-index: 3;
         }
 
+		div.introduce-p{
+
+			position: absolute;
+			left: 730px;
+			top: 700px;
+			height: 800px;
+			width: 500px;
+
+		}
+
+        div.introduce-p p{
+            position: absolute;
+			font-weight: 300;
+			font-family: 微軟正黑體; 
+			line-height: 60px;
+			z-index: 5;
+
+        }
+
 		div.sq{
 
-			height: 500px; 
-			background-color: antiquewhite;;
-			position: relative;
-			top:-400px;
-			z-index: 2;
+			background-color:rgb(255, 255, 255);
+			box-shadow: 0px 0px 7px rgb(199, 199, 199);
+			top:630px;
+			z-index: 5;
+			height: 500px;
+			width: 470px;
+			left: 13vw;
+			position: absolute;
+
 
 		}
 
@@ -68,11 +94,17 @@
 			width: 1200px;
 			height: 1200px;
 			border-radius: 50%;
-			position: relative;
+			position: absolute;
 			left: -30vw;
 			top: -35vw;
 			z-index: 1;
 
+		}
+
+		img{
+			background: fixed;
+			z-index: 1;
+			position: relative;
 		}
 
 
