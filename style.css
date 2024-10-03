@@ -1,137 +1,150 @@
-		*{
-			padding :0;
-			margin :0;
-	
-		}
-		
-		header{
-			height: 80px;
-			width: device-width;
-		}
-		header h1{
-			position: absolute;
-			left: 4vw;
-			line-height: 80px;
-		}
+*{
+	padding :0;
+	margin :0;
 
-		header ul{
-			position: absolute;
-			right: 5vw;
-			top: 0;
-			line-height: 80px;
-			z-index: 3;
-		}
+}
 
-		header li{
-			display: inline;
-			margin: 2vw;
+header{
+	height: 80px;
+	width: device-width;
+}
+header h1{
+	position: absolute;
+	left: 4vw;
+	line-height: 80px;
+}
 
-		}
+header ul{
+	position: absolute;
+	right: 5vw;
+	top: 0;
+	line-height: 80px;
+	z-index: 4;
+}
 
-		header li a{
-			color: #000000;
-			z-index: 3;
-		}
+header li{
+	display: inline;
+	margin: 2vw;
 
-        main section h1{
-            line-height: 200px; 
-            font-family: 微軟正黑體; 
-            font-weight: 300;
-            font-style: italic;
-            position: absolute;
-			z-index: 4;
-        }
+}
 
-        main section h3{
-            line-height: 50px; 
-            font-family: 微軟正黑體; 
-            font-weight: 300;
-            font-style: italic;
-            position: absolute;
-			z-index: 3;
-        }
+header li a{
+	color: #000000;
+	z-index: 3;
+}
 
-        main section h2{
-            position: absolute;
-			z-index: 3;
-        }
+main section h1{
+	line-height: 200px; 
+	font-family: 微軟正黑體; 
+	font-weight: 300;
+	font-style: italic;
+	position: absolute;
+	z-index: 5;
+}
 
-		div.introduce-p{
+main section h3{
+	line-height: 50px; 
+	font-family: 微軟正黑體; 
+	font-weight: 300;
+	font-style: italic;
+	position: absolute;
+	z-index: 4;
+}
 
-			position: absolute;
-			left: 730px;
-			top: 700px;
-			height: 800px;
-			width: 500px;
+main section h2{
+	position: absolute;
+	z-index: 4;
+}
 
-		}
+div.introduce-p{
 
-        div.introduce-p p{
-            position: absolute;
-			font-weight: 300;
-			font-family: 微軟正黑體; 
-			line-height: 60px;
-			z-index: 5;
+	position: absolute;
+	left: 770px;
+	top: 700px;
+	height: 800px;
+	width: 500px;
 
-        }
+}
 
-		div.sq{
+div.introduce-p p{
+	position: absolute;
+	font-weight: 300;
+	font-family: 微軟正黑體; 
+	line-height: 60px;
+	z-index: 6;
 
-			background-color:rgb(255, 255, 255);
-			box-shadow: 0px 0px 7px rgb(199, 199, 199);
-			top:630px;
-			z-index: 5;
-			height: 500px;
-			width: 470px;
-			left: 13vw;
-			position: absolute;
+}
 
+div.sqpic{
 
-		}
-
-		div.circle{
-			background-color: beige;
-			width: 1200px;
-			height: 1200px;
-			border-radius: 50%;
-			position: absolute;
-			left: -30vw;
-			top: -35vw;
-			z-index: 1;
-
-		}
-
-		img{
-			background: fixed;
-			z-index: 1;
-			position: relative;
-		}
+	background-color:rgb(255, 255, 255);
+	box-shadow: 0px 0px 7px rgb(199, 199, 199);
+	top:630px;
+	z-index: 5;
+	height: 540px;
+	width: 500px;
+	left: 12vw;
+	position: absolute;
 
 
+}
 
-		/* button{
-			color: white;
-			background-color: red;
-			width: 60px;
-			height: 30px;
-			border-radius: 17px;
-			border-style: None;
-			cursor: pointer; 
-		}
-	
-		button:hover{
-			background-color: rgb(255, 103, 103);
-		}
+div.circle{
+	background-color: rgb(109 ,117 ,137);
+	width: 800px;
+	height: 800px;
+	border-radius: 50%;
+	position: absolute;
+	left: -20vw;
+	top: 1000px;
+	opacity: 0.5;
+	overflow: hidden ;
+	z-index: 1;
 
-		button:active{
-			background-color: rgb(255, 136, 136);
-		}		 */
+}
 
-		a{
-			text-decoration: None;
-			color: white;
-		}
+div.sq{
 
-		a:visited{
-			text-decoration: None;
-		}
+	background-color:rgb(255, 255, 255);
+	top:700px;
+	z-index: 2;
+	height: 800px;
+	width: 800px;
+	left: -20vw;
+	position: relative;
+}
+
+img{
+	background: fixed;
+	z-index: 3;
+	position: relative;
+}
+
+
+
+/* button{
+	color: white;
+	background-color: red;
+	width: 60px;
+	height: 30px;
+	border-radius: 17px;
+	border-style: None;
+	cursor: pointer; 
+}
+
+button:hover{
+	background-color: rgb(255, 103, 103);
+}
+
+button:active{
+	background-color: rgb(255, 136, 136);
+}		 */
+
+a{
+	text-decoration: None;
+	color: white;
+}
+
+a:visited{
+	text-decoration: None;
+}
